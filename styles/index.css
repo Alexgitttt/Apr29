@@ -1,6 +1,72 @@
-.mhm {
-	color: #73C65C;
-	text-align: center;
+*{
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue;
-	padding: 30px;
 }
+
+body{
+	border: 0.2px #120E06 solid;
+	min-height: 950px;
+	background: linear-gradient(186deg, rgba(201,201,228,1) 30%, rgba(223,189,200,1) 67%);
+}
+
+h1{
+	/*border: 0.2px #120E06 solid;*/
+	font-weight: 400;
+}
+
+.main{
+
+	border: 0.8px black solid;
+	margin: auto;
+	max-width: 800px;
+	padding: 1%;
+}
+
+
+
+
+
+ul, li, a{
+	list-style: none;
+	font-size: 107%;
+	color: white;
+	letter-spacing: 0.8px;
+
+}
+
+ul{
+	padding: 0px 5px;
+	border: 0.8px black solid;
+	display: flex;
+	justify-content: space-between;
+	/*flex-direction: row-reverse;*/
+	
+}
+
+li {
+	padding: 8px 10px;
+	border-radius: 8px;
+	/*display: block;*/
+}
+
+
+
+li, a{
+	text-decoration: none;
+	background: #66CB66;
+	
+}
+
+.special{
+	border: 0.1px #120E06 solid;
+	background: transparent;
+}
+
+.special a{
+	color: black;
+	background: transparent;
+}
+
+
+
+
+/* */
