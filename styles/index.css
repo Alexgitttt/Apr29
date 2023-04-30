@@ -3,7 +3,7 @@
 }
 
 body{
-	border: 0.2px #120E06 solid;
+	/*border: 0.2px #120E06 solid;*/
 	min-height: 950px;
 	background: linear-gradient(186deg, rgba(201,201,228,1) 30%, rgba(223,189,200,1) 67%);
 }
@@ -15,7 +15,7 @@ h1{
 
 .main{
 
-	border: 0.8px black solid;
+	/*border: 0.8px black solid;*/
 	margin: auto;
 	max-width: 800px;
 	padding: 1%;
@@ -35,7 +35,7 @@ ul, li, a{
 
 ul{
 	padding: 0px 5px;
-	border: 0.8px black solid;
+
 	display: flex;
 	justify-content: space-between;
 	/*flex-direction: row-reverse;*/
@@ -67,6 +67,50 @@ li, a{
 }
 
 
+.Example{
+	font-size:1.4em;
+}
+
+
+
+.codeField{
+	background: rgba(241,234,248, 0.5);
+	padding: 0px;
+}
+
+
+.borderGreen{
+	border-radius: 1px;
+	display: flex;
+	justify-content: start;
+	margin: 0px;
+	
+}
+
+.branch{
+	background: linear-gradient(90deg, transparent 35%, #66cb66 50%, transparent 65%);
+	margin-left: -12px;
+	max-width: 1px;
+	line-height: 1px;
+}
+
+.text{
+	background:transparent;
+	color: black;
+	font-size:0.9em;
+}
+
+
+.yourself{
+	font-size: 105%;
+	padding: 10px;
+	margin-left: 2px;
+	background: #66CB66;
+	width: 15%;
+	color: white;
+	border-radius: 8px;
+	letter-spacing: 0.8px;
+}
 
 
 /* */
